@@ -459,7 +459,7 @@ line-height: 30px;
 
 }
 
-.newsletter_img{
+.newsletter_con{
     position: relative;
 
 }
@@ -468,7 +468,7 @@ line-height: 30px;
 
 
 
-.newsletter_side{
+.newsletter_item{
     border-radius: 6px;
 background: #FF5400;
 width: 30%;
@@ -480,7 +480,7 @@ transform: rotate(-45deg);
 
 }
 
-.newsletter_side p{
+.newsletter_item p{
     color: #FFF;
 text-align: center;
 
@@ -490,7 +490,7 @@ line-height: normal;
 }
 
 
-.newsletter_side h3{
+.newsletter_item h3{
     color: #FFF;
     text-align: center;
 
@@ -704,20 +704,18 @@ flex-direction: column;}
    
 
 }
+
+
+
+
 .news{
     margin: 30px 10px;
 }
 
 
-.newsletter_side{
-   
-width: 35%;
-padding-left: 15px;
-padding-right: 15px;}
 
 
-
-.newsletter_side h3{
+.newsletter_item h3{
     
 
 font-size: 14px;
