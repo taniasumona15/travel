@@ -598,11 +598,36 @@ line-height: 26px;
 
 
 
+.pricing{
+    margin: 40px 80px 80px 80px;
+}
+
+
+.plans{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+
+.free{
+    border: 1px solid #FF5400;
+    padding: 50px 60px;
+    border-radius: 5px;
+    text-align: center;
+}
 
 
 
-
-
+.pricing h3, h1{
+    text-align: center;
+    color: #131318;
+   
+    font-size: 28px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 30px;
+}
 
 
 
@@ -730,5 +755,17 @@ font-size: 14px;
 .footer hr{
     width: 80%;
 }
+
+.plans{
+    flex-direction: column;
+}
+
+.pricing{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
 }
 
