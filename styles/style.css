@@ -604,19 +604,29 @@ line-height: 26px;
 
 
 .plans{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    display: grid;
+grid-template-columns: repeat(2, 1fr);   
+ gap: 20px;
    
 }
 
 .free{
-    border: 1px solid #FF5400;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     padding: 50px 60px;
     border-radius: 5px;
     text-align: center;
 }
 
+.free img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.free button:hover{
+    color: #FF5400;
+    background-color: #FFF;
+    border: 1px solid #FF5400;
+}
 
 
 .pricing h3, h1{
@@ -628,6 +638,7 @@ line-height: 26px;
     line-height: normal;
     margin-bottom: 30px;
 }
+
 
 
 
@@ -757,6 +768,8 @@ font-size: 14px;
 }
 
 .plans{
+    display: flex;
+    justify-content: space-between;
     flex-direction: column;
 }
 
