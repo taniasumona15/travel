@@ -454,16 +454,17 @@ line-height: 30px;
     gap: 40px;
 }
 
+.newsletter_con img{
+    width: 100%;
+
+}
 
 .newsletter_img{
     position: relative;
 
 }
 
-.newsletter_img img{
-width: 100%;
 
-}
 
 
 
